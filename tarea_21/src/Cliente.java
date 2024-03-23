@@ -7,6 +7,7 @@ public class Cliente extends Persona{
         this.clienteId = ++idCAnterior;
     }
 
+    String casa = "Hola Mundo";
     @Override
     public String toString() {
         return super.toString() +
